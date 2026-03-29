@@ -1,6 +1,16 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
+Run these commands-
+npx create-next-app@latest job-board --typescript --eslint --app --src-dir --import-alias "@/*" --no-tailwind
+
+
+cd job-board
+npm install mongoose jsonwebtoken bcryptjs
+npm install --save-dev @types/jsonwebtoken @types/bcryptjs
+brew tap mongodb/brew
+brew install mongodb-community
+brew services start mongodb-community
 
 First, run the development server:
 
