@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.registerHeading{
+  display: flex;
+}
+.form {
+  gap: 16px;
+  width: 400px;
+  padding: 32px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width:100%;
+  box-sizing: border-box;
+  margin:10px;
+}
+
+.button {
+  padding: 10px;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
